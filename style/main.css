@@ -40,6 +40,36 @@ nav{
     margin-left: 10px;
 }
 
+/* main */
+main{
+    background: linear-gradient(135deg, #EEF6FD 0%, #D5EDFF 100%); 
+    min-height: 1080px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left{
+width: 690px;
+height: 234px;
+margin-left: 179px;
+margin-top: 265px;
+
+}
+.right{
+    margin-top: 195px;
+    margin-right: 195px;
+}
+h1{ 
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+h3{
+    font-weight: 400;
+font-size: 30px;
+
+}
 /* footer */
 footer{
     display: block;
