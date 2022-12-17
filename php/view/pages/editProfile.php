@@ -27,7 +27,7 @@
 <!-- фото и поля для редактирования -->
 
 <div class="edit_profile_caards">
-    <img src="images/rkt/jpg" alt="">
+    <img src="" alt="">
     <form>
     <input type="text" name="FIO" value="Фамилия Имя Отчетво" />
     <input type="data" name="data" value="20.12.2002" />
