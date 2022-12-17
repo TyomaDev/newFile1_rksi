@@ -14,13 +14,13 @@
     <!-- /navbar  -->
 
     <!-- main page -->
-    <?php  include "php/view/pages/main.php";  ?>
+    <section>
+        <?php  include "php/view/pages/main.php";  ?>
+    </section>
     <!-- /main page -->
-    <hr>
     <!-- log in page -->
     <?php  include "php/view/pages/login.php";  ?>
     <!-- /log in page -->
-    <hr>
     <!-- sign up page -->
     <?php  include "php/view/pages/signup.php";  ?>
     <!-- /sign up page -->

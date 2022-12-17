@@ -1,1 +1,1 @@
-<footer> newFile1 | 2022г </footer>
+<footer> newFile1 2022г </footer>
