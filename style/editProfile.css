@@ -1,0 +1,142 @@
+.add_catalog_cards{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.upper_cards{
+    width: 65%;
+    min-height: 130px;
+    background: linear-gradient(135deg, #96D7F9 0%, #748DDD 100%);
+    padding: 15px;
+    position: relative;
+}
+
+
+.catalog_cards{
+    margin-top: 2rem ;
+    width: 65%;
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.catalog_card{
+    width: 45%;
+    min-height: 15rem ;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+
+}
+.catalog_card>h4{
+    font-size: 24px;
+}
+.catalog_card>h6{
+   margin: 0.4rem 0;
+   font-size: 16px;
+   width: 80%;
+   text-align: center;
+   color: rgb(129, 129, 129);
+}
+
+
+
+.upper_cards>h4{
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.upper_cards>h5{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+
+}
+.upper_cards>a{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    right: 20px;
+    top: 15px;
+}
+.pagination{
+    margin-top: 2rem;
+}
+.pagination>span{
+    margin: 0 1rem;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+/*  */
+.edit_profile_cards{
+    width: 40%;
+    margin-bottom: 6.7rem;
+
+}
+.editProf_img{
+    width: 25%;
+    height: 25%;
+    margin: 0 1rem 1rem 0;
+    border-radius: 6px;
+
+
+}
+.top-part_edit_profile{
+    width: 100%;
+    display: flex;
+}
+.top-part_edit_profile>div{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+}
+
+
+.editP_input{
+    padding: 8px 100px 8px 15px;
+    text-align: left;
+    margin: 5px 0;
+    background-color: #fff;
+    border: none;
+    font-size: 24px;
+    border-radius: 6px;
+    
+
+}
+.top-part_edit_profile>div>input{
+    padding: 8px 15px;
+    text-align: center;
+    
+}
+
+.epc_bottom_inputs{
+    width: 77.5%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+.editP_input_submit{
+    transition: all  0.2s;
+    width: 30%;
+    padding: 5px 10px;
+    margin-left: auto;
+    text-align: center;
+
+}
+.editP_input_submit:hover{
+    transition: all  0.3s;
+    background-color: #748DDD;
+    color: #fff;
+
+}
