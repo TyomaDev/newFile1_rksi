@@ -18,6 +18,11 @@
         <?php  include "php/view/pages/main.php";  ?>
     </section>
     <!-- /main page -->
+    <!-- main page -->
+    <section>
+        <?php  include "php/view/pages/editProfile.php";  ?>
+    </section>
+    <!-- /main page -->
     <!-- log in page -->
     <?php  include "php/view/pages/login.php";  ?>
     <!-- /log in page -->
