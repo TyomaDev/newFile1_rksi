@@ -6,7 +6,7 @@
 
         <button type="submit">Войти</button>
 
-        <button type="submit">Подтвердить</button>
+    
         <a>Забыли пароль?</a>
 
     </form>
