@@ -13,16 +13,11 @@
     <?php  include "php/view/navbar.php";  ?>
     <!-- /navbar  -->
 
-    <!-- main page -->
-    <section>
-        <?php  include "php/view/pages/main.php";  ?>
-    </section>
-    <!-- /main page -->
-    <!-- main page -->
+    <!-- editProfile page -->
     <section>
         <?php  include "php/view/pages/editProfile.php";  ?>
     </section>
-    <!-- /main page -->
+    <!-- /editProfile page -->
     <!-- log in page -->
     <?php  include "php/view/pages/login.php";  ?>
     <!-- /log in page -->
