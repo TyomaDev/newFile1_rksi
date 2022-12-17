@@ -3,6 +3,11 @@
         <h3 class="form-title">Авторизация</h3>
         <input type="email" name="mail" placeholder="email">
         <input type="password" name="password" placeholder="password">
+
         <button type="submit">Войти</button>
+
+        <button type="submit">Подтвердить</button>
+        <a>Забыли пароль?</a>
+
     </form>
 </section>
