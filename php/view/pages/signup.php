@@ -5,7 +5,6 @@
         <input type="text" name="FIO" placeholder="FIO">
         <input type="text" name="email" placeholder="email">
         <hr>
-        <input type="text" name="email" placeholder="email">
         <input type="password" name="password" placeholder="password">
         <input type="password" name="password_confirm" placeholder="confirm password">
         <button type="submit">Подтвердить</button>
