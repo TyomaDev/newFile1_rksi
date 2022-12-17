@@ -8,10 +8,10 @@
 section{
     min-height: 100vh ;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background: rgb(213,237,255);
     background: linear-gradient(90deg, rgba(213,237,255,1) 0%, rgba(197,227,250,1) 100%);
+    justify-content: space-between;
+    position: relative;
 }
 
 /* navbar*/
@@ -41,23 +41,16 @@ nav{
 }
 
 /* main */
-main{
-    background: linear-gradient(135deg, #EEF6FD 0%, #D5EDFF 100%); 
-    min-height: 1080px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
 
 .left{
 width: 690px;
 height: 234px;
 margin-left: 179px;
-margin-top: 265px;
+margin-top: 55px;
 
 }
 .right{
-    margin-top: 195px;
+    margin-top: 95px;
     margin-right: 195px;
 }
 h1{ 
