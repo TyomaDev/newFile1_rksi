@@ -14,7 +14,9 @@
     <!-- /navbar  -->
 
     <!-- main page -->
-    <?php  include "php/view/pages/main.php";  ?>
+    <section>
+        <?php  include "php/view/pages/main.php";  ?>
+    </section>
     <!-- /main page -->
     <!-- log in page -->
     <?php  include "php/view/pages/login.php";  ?>

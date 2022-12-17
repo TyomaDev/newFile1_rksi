@@ -4,5 +4,6 @@
         <input type="text" name="FIO" placeholder="login">
         <input type="password" name="password" placeholder="password">
         <button type="submit">Подтвердить</button>
+        <a>Забыли пароль?</a>
     </form>
 </section>
