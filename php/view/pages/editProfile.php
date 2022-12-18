@@ -36,7 +36,7 @@
 
 <!-- фото и поля для редактирования -->
 
-<div class="edit_profile_caards">
+<div class="edit_profile_cards">
     <img src="" alt="">
     <form>
         <div class="top-part_edit_profile">

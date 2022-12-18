@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>newFile1</title>
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/editProfile.css">
     
 </head>
 <body>
     <!-- navbar -->
     <?php  include "php/view/navbar.php";  ?>
     <!-- /navbar  -->
-
+    <!-- editProfile page -->
+    <section>
+        <?php  include "php/view/pages/main.php";  ?>
+    </section>
     <!-- editProfile page -->
     <section>
         <?php  include "php/view/pages/editProfile.php";  ?>
