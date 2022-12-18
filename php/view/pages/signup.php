@@ -1,24 +1,45 @@
-<section>
-<form class="signup_form" action="POST">
-        <h3 class="form-title">Регистрация</h3>
-        <input type="text" name="full_name" placeholder="Введите полное имя">
-        <input type="email" name="mail" placeholder="email">
-<input type="date" name="dates" placeholder="data 31.12.2022">  
-        <select name="otdel" id="pet-select">
-    <option value="">название отделов
-    </option>
-    <option value="kom">комерческий</option>
-    <option value="fin">финансовый</option>
-    <option value="market">маркетинговый</option>
-        
-</select>   
-        <input type="password" name="password" placeholder="password">
-        <input type="password" name="password_confirm" placeholder="confirm password">
-        <label class="input-file">
-        <input type="file" name="avatar">
-        <span>Выберите файл</span>
-        </label>
-        <button type="submit">Зарегестрироваться</button>
 
-    </form>
+<?php
+
+session_start();
+require_once 'include/connect.php';
+
+?>
+
+
+<section>
+<form class="signup_form" method="POST" action="php/view/pages/include/register.php" enctype="multipart/form-data">
+      <Label>Фио</Label>
+      <input type="text" name="full_name" placeholder="Введите полное имя">
+      <label>Логин</label>
+      <input type="text" name="login" placeholder="Введите логин">
+      <label>Почта</label>
+      <input type="email"  name="email" placeholder="Введите почту">
+      <label>Изображение профиля</label>
+      <input type="file" name="avatar" placeholder="Добавте изображение профиля, не обзательно">
+      <label>Пароль</label>
+      <input type="password" name="password" placeholder="Введите логин">
+      <label>Подтверждение</label>
+      <input type="password" name="password_confirm" placeholder="Введите логин">
+<p>Выберете отдел</p> <button type="submit">Войти</button>
+      <select name="otdel" >
+        <option value="Комерческий">Комерческий</option>
+        <option value="Финансовый">Финансовый</option>
+        <option value="Маркединговый">Маркединговый</option>
+        </select>
+
+      
+     </form>
+<div>
+<p>   
+<?php 
+if (isset($_SESSION['message1'])){
+      echo '<p>'. $_SESSION['message1'].'</p>';
+}
+
+unset($_SESSION['message1']);
+
+?>
+</p>
+</div>
 </section>

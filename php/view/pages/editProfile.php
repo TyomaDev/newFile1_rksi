@@ -36,8 +36,8 @@
 
 <!-- фото и поля для редактирования -->
 
-<div class="edit_profile_cards">
-    
+<div class="edit_profile_caards">
+    <img src="" alt="">
     <form>
         <div class="top-part_edit_profile">
             <img class="editProf_img" src="images/rkt.jpg" alt="">

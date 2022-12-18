@@ -6,7 +6,7 @@
                 <h4>Бургер будет</h4>
                 <span>Здесь</span>
             </div>
-            <img alt="avatar_img" src="images/rkt.jpg" />
+            <img alt="avatar_img" src="" />
         </div>
     </div>
 
@@ -22,7 +22,7 @@
                 <h4>Фамилия Имя</h4>
                 <span>Участник</span>
             </div>
-            <img alt="avatar_img" src="images/rkt.jpg" />
+            <img alt="avatar_img" src="" />
         </div>
         <!-- else -->
         <!-- <div>
